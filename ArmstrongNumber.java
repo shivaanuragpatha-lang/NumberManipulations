@@ -6,9 +6,9 @@ public class ArmstrongNumber {
         System.out.print("enter the number:");
         int num = sc.nextInt();
         int original = num;
-        @SuppressWarnings("ReassignedVariable") int count = 0;
-        @SuppressWarnings("ReassignedVariable") int sum = 0;
-        @SuppressWarnings("ReassignedVariable") int temp = num;
+        int count = 0;
+        int sum = 0;
+        int temp = num;
 
         while (temp != 0) {
             temp = temp / 10;
